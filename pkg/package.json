@@ -1,0 +1,16 @@
+{
+  "name": "wasm-tetris",
+  "collaborators": [
+    "Pedro Castilho <cstl.px@gmail.com>"
+  ],
+  "description": null,
+  "version": "0.1.0",
+  "license": null,
+  "repository": null,
+  "files": [
+    "wasm_tetris_bg.wasm",
+    "wasm_tetris.d.ts"
+  ],
+  "main": "wasm_tetris.js",
+  "types": "wasm_tetris.d.ts"
+}
