@@ -7,10 +7,6 @@ export function __wbg_random_c51ed30e14d59192() {
     return __wbg_random_c51ed30e14d59192_target();
 }
 
-const TextDecoder = typeof self === 'object' && self.TextDecoder
-    ? self.TextDecoder
-    : require('util').TextDecoder;
-
 let cachedDecoder = new TextDecoder('utf-8');
 
 let cachegetUint8Memory = null;
